@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+
+textarea{
+  resize: none;
+}
+
+.note{
+  background-color: #54a0ff;
+  float: left;
+  width: 280px;
+  height: 230px;
+  margin-top: 50px;
+  margin-left: 30px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+              rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ 
+  color: white;
+  overflow-y: auto;
+ 
+}
+.note>button{
+  background-color:#1e272e;
+  color: white;
+  width: 100%;
+  height: 30px;
+}
+body{
+  background-color:#c8d6e5;
+}
+h1{
+  text-align: center;
+  color:#1e272e;
+}
+h2{
+  text-align: left; 
+  
+  padding-left: 20px;
+}
+p{
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 2px;
+}
+::placeholder {
+  color: black;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: auto;
+  background-color: #54a0ff;
+  margin-top: 20px;
+  margin-top: 50px;
+  box-sizing: border-box;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+form>input{
+  background-color: #54a0ff;
+  border: none;
+  height:25px;
+  padding: 10px;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form>textarea{
+  margin-top: 5px;
+  background-color:#54a0ff;
+  border: 1px solid white;
+  height: 100px;
+  padding-left: 10px;
+  color: white;
+  resize: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+form>button{
+  background-color:#1e272e;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+}
